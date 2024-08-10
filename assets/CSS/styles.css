@@ -1,0 +1,78 @@
+@import url(../CSS/reset.css);
+@import url(../CSS/var.css);
+
+body {
+    background-color: var(--color-background);
+}
+
+.header-container {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    margin-bottom: 28px;
+    position: sticky;
+    top: 0;
+    background-color: var(--color-background);
+    z-index: 1000;
+    padding: 8px 24px;
+}
+
+.menu img {
+    margin-right: 32px;
+}
+
+.header-search {
+    width: 405px;
+    padding: 10px;
+    height: 40px;
+    background-color: var(--bg-color-input);
+    border-radius: 25px;
+}
+
+.header-search img {
+    height: 24px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+input {
+    width: 238px;
+    background: transparent;
+    border: none;
+    padding: 0 12px 0 12px;
+    color: var(--color-text);
+    outline: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.header-login{
+    column-gap: 24px;
+}
+
+.header-login img {
+    border-radius: 20px;
+}
+
+.icon-small {
+    height: 24px;
+    cursor: pointer;
+}
+
+.image-login {
+    height: 34px;
+    cursor: pointer;
+}
+
+.logo-icon {
+    height: 20px;
+    cursor: pointer;
+}
